@@ -1,3 +1,5 @@
+
+/* Background and Card */
 .gradient-custom {
     /* fallback for old browsers */
     background: #f093fb;
@@ -18,3 +20,8 @@
     .card-registration .select-arrow {
     top: 13px;
     }
+
+/* Multiple selection */
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
