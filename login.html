@@ -108,7 +108,7 @@
             <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
           </li>
           <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="login.html"><i class="fab fa-twitter"></i></a>
+            <a class="nav-link" href="page2.html"><i class="fab fa-twitter"></i></a>
           </li>
         </ul>
   
@@ -127,61 +127,72 @@
   <section class="vh-100 gradient-custom">
     <div class="container py-5 h-50">
       <div class="row justify-content-center align-items-center h-100">
-        <div class="col-12 col-lg-11 col-xl-11">
+        <div class="col-12 col-lg-5 col-xl-5">
           <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
             <div class="card-body p-4 p-md-5">
-              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 ">AIT Tracker - Ticket#</h3>
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 ">Login</h3>
               
               <!-- Divider -->
               <hr class="hr" />
 
-              <form class="row g-3 align-items-center">
-
-
-                    <div class="col-12">
-                      <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
-                      <div class="input-group">
-                        <div class="input-group-text">@</div>
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="inlineFormInputGroupUsername"
-                          placeholder="Username"
-                        />
-                      </div>
+              <form>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form2Example1" class="form-control" />
+                  <label class="form-label" for="form2Example1">Email address</label>
+                </div>
+              
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form2Example2" class="form-control" />
+                  <label class="form-label" for="form2Example2">Password</label>
+                </div>
+              
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                  <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                      <label class="form-check-label" for="form2Example31"> Remember me </label>
                     </div>
-                  
-                    <div class="col-12">
-                      <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-                      <select data-mdb-select-init class="select form-control">
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                        <option value="4">Four</option>
-                        <option value="5">Five</option>
-                        <option value="6">Six</option>
-                        <option value="7">Seven</option>
-                        <option value="8">Eight</option>
-                      </select>
-                    </div>
-
-                  
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="inlineFormCheck" />
-                        <label class="form-check-label" for="inlineFormCheck">
-                          Remember me
-                        </label>
-                      </div>
-                    </div>
-                  
-                    <div class="col-12">
-                      <button data-mdb-ripple-init type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-
-
-  
+                  </div>
+              
+                  <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!">Forgot password?</a>
+                  </div>
+                </div>
+              
+                <!-- Submit button -->
+                <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+              
+                <!-- Register buttons -->
+                <div class="text-center">
+                  <p>Not a member? <a href="#!">Register</a></p>
+                  <p>or sign up with:</p>
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+              
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-google"></i>
+                  </button>
+              
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+              
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-github"></i>
+                  </button>
+                </div>
               </form>
+
+
+
+
+
             </div>
           </div>
         </div>
